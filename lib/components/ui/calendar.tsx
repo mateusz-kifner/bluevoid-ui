@@ -47,7 +47,7 @@ function CalendarMonthDropdown({
   onChange,
   container,
   selectedOption,
-  ...moreProps
+  // ...moreProps
 }: DropdownProps & {
   container: HTMLDivElement | null;
   selectedOption: DropdownOption;
@@ -115,7 +115,7 @@ function CalendarYearDropdown({
   onChange,
   container,
   selectedOption,
-  ...moreProps
+  // ...moreProps
 }: DropdownProps & {
   container: HTMLDivElement | null;
   selectedOption: DropdownOption;

@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tsconfigPaths from "vite-tsconfig-paths"
 import dts from "vite-plugin-dts"
+import preserveDirectives from 'rollup-preserve-directives'
 
 
 // https://vite.dev/config/
@@ -29,6 +30,9 @@ export default defineConfig({
           'react/jsx-runtime': 'react/jsx-runtime',
         },
       },
+      plugins:[
+        preserveDirectives()
+      ]
     },
   },
 })

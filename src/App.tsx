@@ -1,13 +1,15 @@
-import { Button } from "@bluevoid/ui"
+import { ThemeProvider } from "next-themes"
+import ShadCN from "./shadcn"
+import { TooltipProvider } from "@radix-ui/react-tooltip"
 
 function App() {
 
   return (
-    <>
-      <div>
-        <Button>Test</Button>
-      </div>
-    </>
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+      <TooltipProvider>
+        <ShadCN/>
+      </TooltipProvider>
+    </ThemeProvider>
   )
 }
 

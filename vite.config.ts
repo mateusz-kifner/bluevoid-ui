@@ -8,7 +8,11 @@ import preserveDirectives from 'rollup-preserve-directives'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tsconfigPaths(), dts({ rollupTypes: true, tsconfigPath: './tsconfig.app.json' })],
+  plugins: [
+    react(), 
+    tsconfigPaths(), 
+    dts({ rollupTypes: true, tsconfigPath: './tsconfig.app.json' })
+  ],
   build: {
     lib: {
       entry: resolve(__dirname, 'lib/main.tsx'),
@@ -35,4 +39,10 @@ export default defineConfig({
       ]
     },
   },
+  resolve: {
+		alias: {
+			// /esm/icons/index.mjs only exports the icons statically, so no separate chunks are created
+			"@tabler/icons-react": "@tabler/icons-react/dist/esm/icons/index.mjs",
+		},
+	},
 })

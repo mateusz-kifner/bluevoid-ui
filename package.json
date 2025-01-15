@@ -1,18 +1,17 @@
 {
   "name": "@bluevoid/ui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/bluevoid-ui.umd.cjs",
   "module": "./dist/bluevoid-ui.js",
   "exports": {
     ".": {
-      "import": "./dist/bluevoid-ui.js",
-      "require": "./dist/bluevoid-ui.umd.cjs"
+      "import": "./dist/bluevoid-ui.js"
     }
   },
+  "types": "./dist/bluevoid-ui.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

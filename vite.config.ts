@@ -13,6 +13,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'lib/main.tsx'),
       name: '@bluevoid/ui',
       // the proper extensions will be added
+      formats: ['es'],
       fileName: 'bluevoid-ui',
     },
     rollupOptions: {

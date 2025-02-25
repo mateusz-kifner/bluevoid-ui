@@ -381,7 +381,7 @@ function ShadCN() {
   const uuid = useId();
   console.log("test");
   return (
-    <div className="mx-auto flex max-w-screen-xl flex-col gap-4 p-2 pb-96">
+    <div className="mx-auto flex max-w-(--breakpoint-xl) flex-col gap-4 p-2 pb-96">
       <TooltipProvider>
       <ThemeToggle />
       {UIElements.map((val, index) => (

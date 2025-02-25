@@ -281,13 +281,13 @@ function Calendar({
           range_end:
             "day-range-end before:absolute [&.day-range-start]:before:bg-transparent before:-left-0.5 before:top-0 before:w-0.5 before:bg-primary/50 before:bottom-0 [&.day-outside]:before:bg-accent/50",
           selected:
-            "day-selected *:bg-primary *:text-primary-foreground *:hover:bg-primary *:hover:text-primary-foreground *:focus:bg-primary *:focus:text-primary-foreground *:opacity-100",
+            "day-selected *:bg-primary *:text-primary-foreground hover:*:bg-primary hover:*:text-primary-foreground focus:*:bg-primary focus:*:text-primary-foreground *:opacity-100",
           today: "*:bg-secondary *:text-secondary-foreground",
           outside:
-            "day-outside *:text-muted-foreground *:opacity-50 *:aria-selected:bg-accent/50 *:aria-selected:text-muted-foreground *:aria-selected:opacity-30",
+            "day-outside *:text-muted-foreground *:opacity-50 aria-selected:*:bg-accent/50 aria-selected:*:text-muted-foreground aria-selected:*:opacity-30",
           disabled: "text-muted-foreground opacity-50",
           range_middle:
-            "day-range-middle *:aria-selected:bg-transparent *:aria-selected:text-accent-foreground w-9 -mx-0.5",
+            "day-range-middle aria-selected:*:bg-transparent aria-selected:*:text-accent-foreground w-9 -mx-0.5",
           hidden: "invisible",
           ...classNames,
         }}

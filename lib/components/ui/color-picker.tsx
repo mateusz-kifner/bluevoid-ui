@@ -172,7 +172,7 @@ function ColorPicker(props: ColorPickerProps) {
           disabled={disabled}
           onActive={setIsActiveArea}
         />
-        <div className="flex flex-grow flex-col gap-3">
+        <div className="flex grow flex-col gap-3">
           <div
             style={{
               display: "flex",
@@ -206,7 +206,7 @@ function ColorPicker(props: ColorPickerProps) {
               <label>
                 {"R : "}
                 <input
-                  className="w-9 border-b border-b-stone-400 bg-transparent text-right outline-none focus-visible:border-b-red-500"
+                  className="w-9 border-b border-b-stone-400 bg-transparent text-right outline-hidden focus-visible:border-b-red-500"
                   value={RGBAText.r}
                   onChange={(e) => {
                     const newColor = { ...RGBAText, r: e.target.value };
@@ -219,7 +219,7 @@ function ColorPicker(props: ColorPickerProps) {
               <label>
                 {"G : "}
                 <input
-                  className="w-9 border-b border-b-stone-400 bg-transparent text-right outline-none focus-visible:border-b-green-500"
+                  className="w-9 border-b border-b-stone-400 bg-transparent text-right outline-hidden focus-visible:border-b-green-500"
                   value={RGBAText.g}
                   onChange={(e) => {
                     const newColor = { ...RGBAText, g: e.target.value };
@@ -232,7 +232,7 @@ function ColorPicker(props: ColorPickerProps) {
               <label>
                 {"B : "}
                 <input
-                  className="w-9 border-b border-b-stone-400 bg-transparent text-right outline-none focus-visible:border-b-blue-500"
+                  className="w-9 border-b border-b-stone-400 bg-transparent text-right outline-hidden focus-visible:border-b-blue-500"
                   value={RGBAText.b}
                   onChange={(e) => {
                     const newColor = { ...RGBAText, b: e.target.value };
@@ -245,7 +245,7 @@ function ColorPicker(props: ColorPickerProps) {
               <label>
                 {"A : "}
                 <input
-                  className="w-9 border-b border-b-stone-400 bg-transparent text-right outline-none focus-visible:border-b-yellow-500"
+                  className="w-9 border-b border-b-stone-400 bg-transparent text-right outline-hidden focus-visible:border-b-yellow-500"
                   value={RGBAText.a}
                   onChange={(e) => {
                     const newColor = { ...RGBAText, a: e.target.value };
@@ -260,7 +260,7 @@ function ColorPicker(props: ColorPickerProps) {
               <label>
                 {"H : "}
                 <input
-                  className="w-12 border-b border-b-stone-400 bg-transparent text-right outline-none focus-visible:border-b-violet-500"
+                  className="w-12 border-b border-b-stone-400 bg-transparent text-right outline-hidden focus-visible:border-b-violet-500"
                   value={HSVText.h}
                   onChange={(e) => {
                     const newColor = { ...HSVText, h: e.target.value };
@@ -273,7 +273,7 @@ function ColorPicker(props: ColorPickerProps) {
               <label>
                 {"S : "}
                 <input
-                  className="w-12 border-b border-b-stone-400 bg-transparent text-right outline-none focus-visible:border-b-cyan-500"
+                  className="w-12 border-b border-b-stone-400 bg-transparent text-right outline-hidden focus-visible:border-b-cyan-500"
                   value={HSVText.s}
                   onChange={(e) => {
                     const newColor = { ...HSVText, s: e.target.value };
@@ -285,7 +285,7 @@ function ColorPicker(props: ColorPickerProps) {
               <label>
                 {"V : "}
                 <input
-                  className="w-12 border-b border-b-stone-400 bg-transparent text-right outline-none focus-visible:border-b-fuchsia-500"
+                  className="w-12 border-b border-b-stone-400 bg-transparent text-right outline-hidden focus-visible:border-b-fuchsia-500"
                   value={HSVText.v}
                   onChange={(e) => {
                     const newColor = { ...HSVText, v: e.target.value };
@@ -337,7 +337,7 @@ function ColorPicker(props: ColorPickerProps) {
       >
         <button
           type="button"
-          className="inline-flex h-8 select-none items-center justify-center gap-3 rounded-md bg-transparent stroke-gray-200 px-4 py-0 font-semibold text-stone-800 uppercase no-underline outline-offset-4 transition-all hover:bg-black hover:bg-opacity-30 focus-visible:outline-sky-600 disabled:pointer-events-none disabled:bg-stone-700 dark:bg-transparent dark:text-stone-200 dark:hover:bg-white dark:hover:bg-opacity-30 dark:first-letter:hover:bg-white"
+          className="inline-flex h-8 select-none items-center justify-center gap-3 rounded-md bg-transparent stroke-gray-200 px-4 py-0 font-semibold text-stone-800 uppercase no-underline outline-offset-4 transition-all hover:bg-black hover:bg-opacity-30 focus-visible:outline-sky-600 disabled:pointer-events-none disabled:bg-stone-700 dark:bg-transparent dark:text-stone-200 dark:hover:bg-white dark:hover:bg-opacity-30 dark:hover:first-letter:bg-white"
           onClick={() => {
             if (!swatchesLoaded) setSwatchesLoaded(true);
             setOpenPalette((val) => !val);

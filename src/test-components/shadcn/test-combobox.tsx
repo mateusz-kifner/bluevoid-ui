@@ -11,7 +11,7 @@ import {
   CommandList,
 } from "@bluevoid/ui/command";
 import { Popover, PopoverContent, PopoverTrigger } from "@bluevoid/ui/popover";
-import { cn } from "@bluevoid/ui";
+import { cn } from "@bluevoid/ui/utils";
 
 const frameworks = [
   {

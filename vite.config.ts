@@ -20,6 +20,8 @@ const uiComponents = fg.sync('lib/components/ui/**/*.tsx').reduce((entries, file
 const entries = {
   ...uiComponents,
   'bluevoid-ui': resolve(__dirname, 'lib/main.tsx'),
+  'utils': resolve(__dirname, 'lib/utils.ts'),
+  'hooks': resolve(__dirname, 'lib/hooks.ts'),
 };
 
 console.log('Entries:', entries);
@@ -40,6 +42,9 @@ export default defineConfig({
       fileName: (_format, entryName) => {
         if (entryName.startsWith('components/ui/')) {
           return `${entryName}.js`; // Preserve UI components separately
+        }
+        if (entryName === 'utils' || entryName === 'hooks') {
+          return `${entryName}.js`; // Preserve utils separately
         }
         return 'bluevoid-ui.js'; // Bundle everything else
       },

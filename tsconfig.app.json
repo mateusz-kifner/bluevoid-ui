@@ -30,6 +30,8 @@
         "./src/*"
       ],
       "@bluevoid/ui": ["./lib/main.tsx"],
+      "@bluevoid/ui/utils": ["./lib/utils.ts"],
+      "@bluevoid/ui/hooks": ["./lib/hooks.ts"],
       "@bluevoid/ui/accordion": ["./lib/components/ui/accordion.tsx"],
       "@bluevoid/ui/breadcrumb": ["./lib/components/ui/breadcrumb.tsx"],
       "@bluevoid/ui/checkbox": ["./lib/components/ui/checkbox.tsx"],

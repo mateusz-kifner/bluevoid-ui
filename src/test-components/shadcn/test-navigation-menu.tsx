@@ -3,7 +3,7 @@
 import * as React from "react";
 // import Link from "next/link";
 
-import { cn } from "@bluevoid/ui";
+import { cn } from "@bluevoid/ui/utils";
 import {
   NavigationMenu,
   NavigationMenuContent,

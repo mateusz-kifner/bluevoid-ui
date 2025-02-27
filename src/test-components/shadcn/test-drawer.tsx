@@ -19,7 +19,7 @@ import {
 } from "@bluevoid/ui/drawer";
 import { Input } from "@bluevoid/ui/input";
 import { Label } from "@bluevoid/ui/label";
-import { cn } from "@bluevoid/ui";
+import { cn } from "@bluevoid/ui/utils";
 import { useMediaQuery } from "@mantine/hooks";
 import { IconMinus, IconPlus } from "@tabler/icons-react";
 import { useState } from "react";

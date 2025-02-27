@@ -7,11 +7,12 @@ import {
   CardTitle,
 } from "@bluevoid/ui/card";
 import { lazy, Suspense } from "react";
-import { cn } from "@bluevoid/ui";
+import { cn } from "@bluevoid/ui/utils";
 // import { IconLoader2 } from "@tabler/icons-react";
 import { type ComponentType, useId } from "react";
 // import { ThemeToggle } from "@bluevoid/ui";
 import { Toaster } from "@bluevoid/ui/sonner";
+// import {ThemeProvider} from "@bluevoid/ui/theme"
 
 const TestAccordion = lazy(
   () => import("@/test-components/shadcn/test-accordion")

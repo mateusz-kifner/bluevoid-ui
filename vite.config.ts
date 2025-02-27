@@ -64,8 +64,6 @@ export default defineConfig({
         'react/jsx-runtime', 
         'recharts',
         'tinycolor2',
-        'zod',
-
       ],
       output: {
         // chunkFileNames: 'chunks/[name]-[hash].js', // Avoid name collisions

@@ -1,4 +1,4 @@
-import { Slider, SliderThumb } from "@bluevoid/ui";
+import { Slider, SliderThumb } from "@bluevoid/ui/slider";
 
 function TestSlider() {
   return (

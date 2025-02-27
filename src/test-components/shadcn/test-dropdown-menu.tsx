@@ -1,4 +1,4 @@
-import { Button } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
 import {
   type Checked,
   DropdownMenu,
@@ -16,7 +16,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/dropdown-menu";
 import { IconAlertCircle, IconKeyboard } from "@tabler/icons-react";
 import { useState } from "react";
 

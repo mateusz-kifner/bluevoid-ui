@@ -1,5 +1,5 @@
-import { Label } from "@bluevoid/ui";
-import { Switch } from "@bluevoid/ui";
+import { Label } from "@bluevoid/ui/label";
+import { Switch } from "@bluevoid/ui/switch";
 
 function TestSwitch() {
   return (

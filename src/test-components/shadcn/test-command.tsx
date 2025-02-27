@@ -7,7 +7,7 @@ import {
   CommandList,
   CommandSeparator,
   CommandShortcut,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/command";
 import { IconAlertCircle } from "@tabler/icons-react";
 function TestCommand() {
   return (

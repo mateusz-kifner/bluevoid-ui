@@ -1,6 +1,6 @@
-import { ScrollArea } from "@bluevoid/ui";
+import { ScrollArea } from "@bluevoid/ui/scroll-area";
 import { lorem } from "../lorem";
-import { Separator } from "@bluevoid/ui";
+import { Separator } from "@bluevoid/ui/separator";
 import { Fragment } from "react";
 
 const tags = Array.from({ length: 50 }).map(

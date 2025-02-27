@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@bluevoid/ui";
+import { Avatar, AvatarFallback, AvatarImage } from "@bluevoid/ui/avatar";
 import { IconAlertCircle } from "@tabler/icons-react";
 
 function TestAvatar() {

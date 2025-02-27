@@ -3,7 +3,7 @@ import {
   InputOTPGroup,
   InputOTPSeparator,
   InputOTPSlot,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/input-otp";
 
 function TestInputOTP() {
   return (

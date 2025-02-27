@@ -5,15 +5,13 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-  ThemeProvider,
-  TooltipProvider,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/card";
 import { lazy, Suspense } from "react";
 import { cn } from "@bluevoid/ui";
-import { IconLoader2 } from "@tabler/icons-react";
+// import { IconLoader2 } from "@tabler/icons-react";
 import { type ComponentType, useId } from "react";
-import { ThemeToggle } from "@bluevoid/ui";
-import { Toaster } from "sonner";
+// import { ThemeToggle } from "@bluevoid/ui";
+import { Toaster } from "@bluevoid/ui/sonner";
 
 const TestAccordion = lazy(
   () => import("@/test-components/shadcn/test-accordion")
@@ -382,8 +380,8 @@ function ShadCN() {
   console.log("test");
   return (
     <div className="mx-auto flex max-w-(--breakpoint-xl) flex-col gap-4 p-2 pb-96">
-      <TooltipProvider>
-      <ThemeToggle />
+      {/* <TooltipProvider> */}
+      {/* <ThemeToggle /> */}
       {UIElements.map((val, index) => (
         <Card key={`${uuid}${index}:`}>
           <CardHeader>
@@ -395,7 +393,8 @@ function ShadCN() {
           <CardContent className={cn("flex gap-2 p-2", val.className)}>
             <Suspense
               fallback={
-                <IconLoader2 className="direction-reverse animate-spin" />
+                "Loading..."
+                // <IconLoader2 className="direction-reverse animate-spin" />
               }
             >
               <val.Element />
@@ -404,7 +403,7 @@ function ShadCN() {
         </Card>
       ))}
       <Toaster/>
-      </TooltipProvider>
+      {/* </TooltipProvider> */}
     </div>
   );
 }

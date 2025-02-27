@@ -1,4 +1,4 @@
-import { Button } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -7,9 +7,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@bluevoid/ui";
-import { Input } from "@bluevoid/ui";
-import { Label } from "@bluevoid/ui";
+} from "@bluevoid/ui/dialog";
+import { Input } from "@bluevoid/ui/input";
+import { Label } from "@bluevoid/ui/label";
 
 function TestDialog() {
   return (

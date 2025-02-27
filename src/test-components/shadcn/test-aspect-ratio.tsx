@@ -1,4 +1,4 @@
-import { AspectRatio } from "@bluevoid/ui";
+import { AspectRatio } from "@bluevoid/ui/aspect-ratio";
 
 function TestAspectRatio() {
   return (

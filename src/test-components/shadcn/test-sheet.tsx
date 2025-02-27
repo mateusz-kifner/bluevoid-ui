@@ -1,6 +1,6 @@
-import { Button } from "@bluevoid/ui";
-import { Input } from "@bluevoid/ui";
-import { Label } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
+import { Input } from "@bluevoid/ui/input";
+import { Label } from "@bluevoid/ui/label";
 import {
   Sheet,
   SheetClose,
@@ -10,7 +10,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/sheet";
 
 function TestSheet() {
   return (

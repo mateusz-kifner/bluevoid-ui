@@ -1,5 +1,5 @@
-import { Label } from "@bluevoid/ui";
-import { Textarea } from "@bluevoid/ui";
+import { Label } from "@bluevoid/ui/label";
+import { Textarea } from "@bluevoid/ui/textarea";
 
 function TestTextarea() {
   return (

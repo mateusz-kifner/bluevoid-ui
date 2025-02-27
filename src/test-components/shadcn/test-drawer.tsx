@@ -1,4 +1,4 @@
-import { Button } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
 import {
   Dialog,
   DialogContent,
@@ -6,7 +6,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/dialog";
 import {
   Drawer,
   DrawerClose,
@@ -16,9 +16,9 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from "@bluevoid/ui";
-import { Input } from "@bluevoid/ui";
-import { Label } from "@bluevoid/ui";
+} from "@bluevoid/ui/drawer";
+import { Input } from "@bluevoid/ui/input";
+import { Label } from "@bluevoid/ui/label";
 import { cn } from "@bluevoid/ui";
 import { useMediaQuery } from "@mantine/hooks";
 import { IconMinus, IconPlus } from "@tabler/icons-react";

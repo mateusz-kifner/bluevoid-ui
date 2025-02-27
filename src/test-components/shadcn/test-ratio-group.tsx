@@ -1,5 +1,5 @@
-import { Label } from "@bluevoid/ui";
-import { RadioGroup, RadioGroupItem } from "@bluevoid/ui";
+import { Label } from "@bluevoid/ui/label";
+import { RadioGroup, RadioGroupItem } from "@bluevoid/ui/radio-group";
 
 function TestRatioGroup() {
   return (

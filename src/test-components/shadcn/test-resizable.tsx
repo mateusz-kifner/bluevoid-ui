@@ -2,7 +2,7 @@ import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/resizable";
 
 function TestResizable() {
   return (

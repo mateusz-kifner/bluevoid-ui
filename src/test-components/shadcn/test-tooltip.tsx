@@ -1,5 +1,5 @@
-import { Button } from "@bluevoid/ui";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@bluevoid/ui/tooltip";
 
 function TestTooltip() {
   return (

@@ -1,10 +1,10 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@bluevoid/ui";
-import { Button } from "@bluevoid/ui";
+import { Avatar, AvatarFallback, AvatarImage } from "@bluevoid/ui/avatar";
+import { Button } from "@bluevoid/ui/button";
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/hover-card";
 import { IconAlertCircle } from "@tabler/icons-react";
 
 function TestHoverCard() {

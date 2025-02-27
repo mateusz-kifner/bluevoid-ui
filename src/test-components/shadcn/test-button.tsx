@@ -1,4 +1,4 @@
-import { Button } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
 import { IconAlertCircle } from "@tabler/icons-react";
 
 function TestButton() {

@@ -3,8 +3,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@bluevoid/ui";
-import { Card } from "@bluevoid/ui";
+} from "@bluevoid/ui/accordion";
+import { Card } from "@bluevoid/ui/card";
 import { lorem } from "../lorem";
 
 function TestAccordion() {

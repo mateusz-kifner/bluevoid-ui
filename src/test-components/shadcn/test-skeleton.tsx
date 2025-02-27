@@ -1,4 +1,4 @@
-import { Skeleton } from "@bluevoid/ui";
+import { Skeleton } from "@bluevoid/ui/skeleton";
 
 function TestSkeleton() {
   return (

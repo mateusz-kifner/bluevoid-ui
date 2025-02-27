@@ -1,4 +1,4 @@
-import { Button } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
 import { IconAlertCircle, IconX } from "@tabler/icons-react";
 import { toast } from "sonner";
 

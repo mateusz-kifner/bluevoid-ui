@@ -4,7 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { Button } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
 import {
   Form,
   FormControl,
@@ -13,8 +13,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@bluevoid/ui";
-import { Input } from "@bluevoid/ui";
+} from "@bluevoid/ui/form";
+import { Input } from "@bluevoid/ui/input";
 import { toast } from "sonner";
 
 const FormSchema = z.object({

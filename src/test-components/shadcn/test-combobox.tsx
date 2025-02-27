@@ -1,7 +1,7 @@
 import * as React from "react";
 import { IconCheck, IconChevronsDown } from "@tabler/icons-react";
 
-import { Button } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
 import {
   Command,
   CommandEmpty,
@@ -9,8 +9,8 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@bluevoid/ui";
-import { Popover, PopoverContent, PopoverTrigger } from "@bluevoid/ui";
+} from "@bluevoid/ui/command";
+import { Popover, PopoverContent, PopoverTrigger } from "@bluevoid/ui/popover";
 import { cn } from "@bluevoid/ui";
 
 const frameworks = [

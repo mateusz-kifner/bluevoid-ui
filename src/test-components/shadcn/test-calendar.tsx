@@ -2,9 +2,9 @@
 
 import * as React from "react";
 
-import { Calendar } from "@bluevoid/ui";
-import { Popover, PopoverContent, PopoverTrigger } from "@bluevoid/ui";
-import { Button } from "@bluevoid/ui";
+import { Calendar } from "@bluevoid/ui/calendar";
+import { Popover, PopoverContent, PopoverTrigger } from "@bluevoid/ui/popover";
+import { Button } from "@bluevoid/ui/button";
 import { cn } from "@bluevoid/ui";
 import { IconCalendar } from "@tabler/icons-react";
 import { format } from "date-fns";

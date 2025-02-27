@@ -6,7 +6,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/pagination";
 
 function TestPagination() {
   return (

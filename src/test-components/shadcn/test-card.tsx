@@ -1,4 +1,4 @@
-import { Button } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
 import {
   Card,
   CardContent,
@@ -6,9 +6,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@bluevoid/ui";
-import { Input } from "@bluevoid/ui";
-import { Label } from "@bluevoid/ui";
+} from "@bluevoid/ui/card";
+import { Input } from "@bluevoid/ui/input";
+import { Label } from "@bluevoid/ui/label";
 
 function TestCard() {
   return (

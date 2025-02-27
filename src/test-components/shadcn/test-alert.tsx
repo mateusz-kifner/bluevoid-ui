@@ -1,4 +1,4 @@
-import { Alert, AlertDescription, AlertTitle } from "@bluevoid/ui";
+import { Alert, AlertDescription, AlertTitle } from "@bluevoid/ui/alert";
 import { IconAlertCircle } from "@tabler/icons-react";
 
 function TestAlert() {

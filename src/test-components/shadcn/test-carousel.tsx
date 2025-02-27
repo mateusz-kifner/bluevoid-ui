@@ -1,11 +1,11 @@
-import { Card, CardContent } from "@bluevoid/ui";
+import { Card, CardContent } from "@bluevoid/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/carousel";
 
 function TestCarousel() {
   return (

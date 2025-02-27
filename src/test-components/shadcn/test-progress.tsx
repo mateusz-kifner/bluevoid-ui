@@ -1,4 +1,4 @@
-import { Progress } from "@bluevoid/ui";
+import { Progress } from "@bluevoid/ui/progress";
 import { useTimeout } from "@mantine/hooks";
 import { useEffect, useState } from "react";
 

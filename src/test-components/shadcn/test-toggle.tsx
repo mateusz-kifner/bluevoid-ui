@@ -1,5 +1,5 @@
-import { Card } from "@bluevoid/ui";
-import { Toggle } from "@bluevoid/ui";
+import { Card } from "@bluevoid/ui/card";
+import { Toggle } from "@bluevoid/ui/toggle";
 import { IconAlertCircle } from "@tabler/icons-react";
 
 function TestToggle() {

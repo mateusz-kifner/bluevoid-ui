@@ -6,13 +6,13 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/breadcrumb";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/dropdown-menu";
 
 function TestBreadcrumb() {
   return (

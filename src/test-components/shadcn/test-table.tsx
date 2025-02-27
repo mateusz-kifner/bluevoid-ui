@@ -7,7 +7,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/table";
 
 const invoices = [
   {

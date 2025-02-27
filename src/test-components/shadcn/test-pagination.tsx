@@ -1,4 +1,4 @@
-import { Pagination } from "@bluevoid/ui";
+import { Pagination } from "@bluevoid/ui/pagination";
 
 function TestPagination() {
   return (

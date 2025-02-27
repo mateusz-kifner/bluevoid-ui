@@ -9,13 +9,13 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/card";
 import {
   type ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/chart";
 
 export const description = "An interactive bar chart";
 

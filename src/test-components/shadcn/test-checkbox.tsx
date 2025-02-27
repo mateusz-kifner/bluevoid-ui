@@ -1,5 +1,5 @@
-import { Checkbox } from "@bluevoid/ui";
-import { Label } from "@bluevoid/ui";
+import { Checkbox } from "@bluevoid/ui/checkbox";
+import { Label } from "@bluevoid/ui/label";
 
 function TestCheckbox() {
   return (

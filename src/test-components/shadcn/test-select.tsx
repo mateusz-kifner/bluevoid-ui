@@ -6,7 +6,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/select";
 
 function TestSelect() {
   return (

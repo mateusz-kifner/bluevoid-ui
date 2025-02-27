@@ -12,7 +12,7 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/context-menu";
 
 function TestContextMenu() {
   return (

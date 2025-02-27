@@ -1,9 +1,9 @@
-import { Button } from "@bluevoid/ui";
+import { Button } from "@bluevoid/ui/button";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/collapsible";
 import { IconChevronsDown } from "@tabler/icons-react";
 function TestCollapsible() {
   return (

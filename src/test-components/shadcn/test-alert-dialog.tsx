@@ -8,8 +8,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@bluevoid/ui";
-import { buttonVariants } from "@bluevoid/ui";
+} from "@bluevoid/ui/alert-dialog";
+import { buttonVariants } from "@bluevoid/ui/button";
 import { IconAlertCircle } from "@tabler/icons-react";
 
 function TestAlertDialog() {

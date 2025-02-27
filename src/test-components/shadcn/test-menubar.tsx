@@ -12,7 +12,7 @@ import {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
-} from "@bluevoid/ui";
+} from "@bluevoid/ui/menubar";
 
 function TestMenubar() {
   return (

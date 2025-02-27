@@ -1,4 +1,4 @@
-import { Separator } from "@bluevoid/ui";
+import { Separator } from "@bluevoid/ui/separator";
 
 function TestSeparator() {
   return (

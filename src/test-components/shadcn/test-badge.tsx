@@ -1,4 +1,4 @@
-import { Badge } from "@bluevoid/ui";
+import { Badge } from "@bluevoid/ui/badge";
 
 function TestBadge() {
   return (

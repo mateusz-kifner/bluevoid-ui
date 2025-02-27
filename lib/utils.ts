@@ -7,3 +7,4 @@ export function cn(...inputs: ClassValue[]) {
 
 export * from "clsx"
 export * from "tailwind-merge"
+export * from "class-variance-authority"

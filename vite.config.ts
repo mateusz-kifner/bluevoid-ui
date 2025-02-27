@@ -50,7 +50,23 @@ export default defineConfig({
       },
     },
     rollupOptions: {
-      external: ['react', 'react-dom', 'react/jsx-runtime', '@tabler/icons-react','@mantine/hooks'],
+      external: [
+        '@hookform/resolvers',
+        '@mantine/hooks',
+        '@tabler/icons-react',
+        'date-fns',
+        'embla-carousel-react',
+        'react-day-picker',
+        'react-dom',
+        'react-hook-form',
+        'react-resizable-panels',
+        'react',
+        'react/jsx-runtime', 
+        'recharts',
+        'tinycolor2',
+        'zod',
+
+      ],
       output: {
         // chunkFileNames: 'chunks/[name]-[hash].js', // Avoid name collisions
 
